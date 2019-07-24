@@ -283,7 +283,7 @@ var tarteaucitron = {
                 html += '         ' + tarteaucitron.lang.disclaimer;
                 if (tarteaucitron.parameters.privacyUrl !== "") {
                     html += '   <br/><br/>';
-                    html += '   <button id="tarteaucitronPrivacyUrl" onclick="document.location = tarteaucitron.parameters.privacyUrl">';
+                    html += '   <button id="tarteaucitronPrivacyUrl" onclick="window.open(tarteaucitron.parameters.privacyUrl,\'_blank\')">';
                     html += '       ' + tarteaucitron.lang.privacyUrl;
                     html += '   </button>';
                 }
@@ -335,7 +335,7 @@ var tarteaucitron = {
                     html += '   </button>';
 
                     if (tarteaucitron.parameters.privacyUrl !== "") {
-                        html += '   <button id="tarteaucitronPrivacyUrl" onclick="document.location = tarteaucitron.parameters.privacyUrl">';
+                        html += '   <button id="tarteaucitronPrivacyUrl" onclick="window.open(tarteaucitron.parameters.privacyUrl,\'_blank\')">';
                         html += '       ' + tarteaucitron.lang.privacyUrl;
                         html += '   </button>';
                     }
@@ -360,7 +360,7 @@ var tarteaucitron = {
                     html += '   </button>';
 
                     if (tarteaucitron.parameters.privacyUrl !== "") {
-                        html += '   <button id="tarteaucitronPrivacyUrl" onclick="document.location = tarteaucitron.parameters.privacyUrl">';
+                        html += '   <button id="tarteaucitronPrivacyUrl" onclick="window.open(tarteaucitron.parameters.privacyUrl,\'_blank\')">';
                         html += '       ' + tarteaucitron.lang.privacyUrl;
                         html += '   </button>';
                     }
